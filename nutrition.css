@@ -1,0 +1,38 @@
+.container-1{
+    background-image: url("Images/Nutrition/nutrition bg.webp");
+    height:300px;
+    background-size:100% 100%;
+    text-align: center;
+}
+.container-1 >h1{
+    color:white;
+    padding-top:60px;
+    font-size: 60px;
+}
+.container-1 >p{
+    color:white;
+    font-size:25px;
+}
+.container-2{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+.container-2-a,.container-2-b,.container-2-c,.container-2-d,.container-2-e,.container-2-f{
+    width:40%;
+    margin:20px;
+}
+.a-link{
+    text-decoration: none;
+}
+.inner-flex{
+    display:flex;
+}
+.image{
+    width:160px;
+    height:130px;
+    padding-top: 20px;
+}
+.padding{
+   padding:10px;
+}

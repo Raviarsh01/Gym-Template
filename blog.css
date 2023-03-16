@@ -1,0 +1,40 @@
+.container-1{
+    display: flex;
+    flex-wrap:wrap;
+    text-align: center;
+    justify-content: center;
+    
+}
+.container-1-a,.container-1-b,.container-1-c,.container-1-d,
+.container-1-e,.container-1-f{
+    width:23%;
+    padding:3px;
+    margin:20px;
+    background-color: white;
+}
+.image{
+    width:100%;
+    height:200px;
+}
+.heading{
+    color:brown;
+}
+.para{
+    text-align: justify;
+}
+.para > a{
+    text-decoration: none;
+    color:brown;
+}
+.date-comment{
+    display:flex;
+    justify-content:space-between;
+}
+.date{
+    width:30px;
+    height:28px;
+}
+.comment{
+    width:18px;
+    height:18px;
+}

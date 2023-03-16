@@ -1,0 +1,40 @@
+body{
+    background-image: url("Images/login bg.jpg");
+    background-size:100%; 
+}
+h2{
+    color:brown;
+    padding-left: 40px;
+}
+label{
+    color:brown;
+    font-size: 17px;
+}
+.login{
+    text-decoration:none;
+    color:white;
+    background-color:brown;
+    font-size:16px;
+    padding:3px 60px;
+}
+.forget-pass{
+    text-decoration:none;
+    color:white;
+    padding-left:56px;
+}
+.signup{
+    text-decoration:none;
+    color:white;
+}
+.container{
+    padding-left:600px;
+    padding-top:100px;
+}  
+.contain{
+    background-image: url("Images/login bg.jpg");
+    
+}
+p{
+    color:brown;
+}
+
