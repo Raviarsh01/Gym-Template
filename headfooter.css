@@ -5,6 +5,10 @@ body{
 .head,footer{
     display:flex;
 }
+.head{
+    justify-content: space-between;
+    align-items: center;
+}
 header{
     position:sticky;
     top:0px;
@@ -16,26 +20,20 @@ header{
     border-radius:90%;
 }
 h1{
-    color:  rgb(44, 55, 75);
+    color:rgb(44, 55, 75);
     padding-left:15px;
 }
-.nav-bar{
+nav>a{
     text-decoration: none;
     color: rgb(44, 55, 75);
-    font-size:27px;
-    margin-left:40px;
-}
-.nav-bar:hover{
-    border-top: 2px red solid; 
-}
-li{
-    list-style: none;
+    font-size:25px;
+    padding:2px 25px;
 }
 nav{
-    margin-left:30%;
-    padding-top:30px;
-    
+    box-shadow: 0 0 3px;  
+    margin-right: 130px;  
 }
+
 /*  Head End here */
 
 /*  Footer start here */

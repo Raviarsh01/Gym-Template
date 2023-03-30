@@ -1,16 +1,17 @@
 .container-1{
     display: flex;
     flex-wrap:wrap;
-    text-align: center;
-    justify-content: center;
-    
+    justify-content:center;    
 }
 .container-1-a,.container-1-b,.container-1-c,.container-1-d,
 .container-1-e,.container-1-f{
-    width:23%;
-    padding:3px;
-    margin:20px;
+    width:25%;
+    padding:5px;
     background-color: white;
+    margin:30px;
+}
+.center{
+    padding:0px 120px;
 }
 .image{
     width:100%;
