@@ -5,12 +5,12 @@
     text-align: center;
 }
 .container-1 >h1{
-    color:white;
+    color:#143642;
     padding-top:60px;
     font-size: 60px;
 }
 .container-1 >p{
-    color:white;
+    color:#143642;
     font-size:25px;
 }
 .container-2{
@@ -18,7 +18,8 @@
     flex-wrap:wrap;
     justify-content: center;
 }
-.container-2-a,.container-2-b,.container-2-c,.container-2-d,.container-2-e,.container-2-f{
+.container-2-a,.container-2-b,.container-2-c,.container-2-d,.container-2-e,
+.container-2-f,.container-2-g,.container-2-h,.container-2-i,.container-2-j{
     width:40%;
     margin:20px;
 }

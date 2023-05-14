@@ -18,18 +18,19 @@
     height:200px;
 }
 .heading{
-    color:brown;
+    color:#143642;
 }
 .para{
     text-align: justify;
 }
 .para > a{
     text-decoration: none;
-    color:brown;
+    color:#143642;
 }
 .date-comment{
     display:flex;
     justify-content:space-between;
+    vertical-align: text-top;
 }
 .date{
     width:30px;
