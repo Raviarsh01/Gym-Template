@@ -1,6 +1,6 @@
 /* For desktop screens */
 .container-1 {
-  height: 500px;
+  height: auto;
   width: 95;
   background-image: url("Images/gym.webp");
   background-size: 100% 100%;
@@ -19,7 +19,7 @@
 }
 .container-1-c {
   background-color: #143642ed;
-  width: 14rem;
+  width: 20rem;
   text-align: center;
   font-size: 23px;
   padding: 0 20px;
@@ -34,6 +34,7 @@
   text-align: justify;
   display: flex;
   flex-direction: column;
+  gap: 2rem;
 }
 .container-2-b {
   display: flex;
@@ -113,9 +114,9 @@
   background-color: #143642;
   font-size: 27px;
   color: white;
-  padding: 20px 40px;
+  padding: 20px 70px;
   text-decoration: none;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 .container-5-b {
   width: 50%;
@@ -131,6 +132,8 @@
   text-align: center;
   font-size: 35px;
   text-decoration: underline;
+  padding:10px;
+  margin-top:1rem;
 }
 .container-6-a {
   display: grid;
@@ -143,7 +146,6 @@
   background-size: cover;
   background-position: top;
   background-color: #222;
-  background-blend-mode: overlay;
   transition: all 1s ease-in-out;
 }
 .row-2 {
@@ -153,28 +155,27 @@
 .col-2 {
   grid-column: span 2;
 }
-.box:hover {
-  background-color: transparent;
+.grid-cover:hover {
   background-position: center;
-  box-shadow: 0 0 4px white;
 }
 
 /* for Mobile screens */
 @media screen and (max-width:813px){
   .container-1 {
     height:auto;
-    line-height: 3rem;
+    line-height: 2rem;
   }
   .container-1-a {
-    font-size: 25px;
+    font-size: 20px;
   }
   .container-1-b {
     font-size: 13px;
   }
   .container-1-c {
-    width: 10rem;
-    font-size: 15px;
+    width: 12em;
+    font-size: 10px;
     height: auto;
+    padding:0;
   }
   .container-2 {
     display: flex;
@@ -212,11 +213,11 @@
     gap: 2rem;
   }
   .container-3-a-1 {
-    width: 70%;
+    width: 100%;
   }
   .pic {
-    width: 60px;
-    height: 50px;
+    width: 50px;
+    height: 40px;
   }
   .container-4 {
     flex-direction: column;
@@ -236,7 +237,7 @@
   }
   .container-4-b > a {
     font-size: 20px;
-    padding: 20px 50px;
+    padding: 10px;
     border-radius: 10px;
   }
   .container-5 {
@@ -250,7 +251,7 @@
   }
   .container-5-a > a {
     font-size: 20px;
-    padding: 20px 50px;
+    padding: 10px 30px;
   }
   .container-5-b {
     width: 100%;
@@ -259,7 +260,6 @@
   }
   .gallery {
     font-size: 25px;
-    padding:1rem;
   }
   .container-6-a {
     display: grid;

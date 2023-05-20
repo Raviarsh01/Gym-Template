@@ -1,17 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+/* For desktop screen  */
 .container-1{
     background-image: url("Images/Nutrition/nutrition bg.webp");
-    height:300px;
+    height:30vh;
     background-size:100% 100%;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-.container-1 >h1{
-    color:#143642;
-    padding-top:60px;
+.container-1 >h2{
+    color:white;
     font-size: 60px;
+    line-height: 5rem;
 }
 .container-1 >p{
-    color:#143642;
+    color:white;
     font-size:25px;
+    text-align: center;
+    width: 45%;
 }
 .container-2{
     display:flex;
@@ -32,8 +41,55 @@
 .image{
     width:160px;
     height:130px;
-    padding-top: 20px;
+    padding-top: 18px;
 }
 .padding{
-   padding:10px;
+   padding:12px;
+}
+
+/* For mobile screen  */
+@media screen and (max-width:813px){
+    .container-1{
+        height:auto;
+        padding: 0.5rem 0;
+        margin-bottom: 1rem;
+    }
+    .container-1 >h2{
+        font-size: 30px;
+        line-height:1.5rem;
+    }
+    .container-1 >p{
+        font-size:17px;
+        width: 70%;
+    }
+    .container-2{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .container-2-a,.container-2-b,.container-2-c,.container-2-d,.container-2-e,
+    .container-2-f,.container-2-g,.container-2-h,.container-2-i,.container-2-j{
+        width:100%;
+        padding:0px 10px;
+        margin:0px;
+        transition: 0.5s ease-in-out;
+       
+    }
+    .container-2-a > a:hover{
+        transform: translateY(-10px);
+    }
+    .image{
+        width:30vw;
+        height:auto;
+        padding-top:0px;
+    }
+    .padding{
+       padding:0px 10px;
+    }
+    .padding > h2{
+        font-size: medium;
+    }
+    .padding >p {
+        font-size: smaller;
+    }
+    
 }
