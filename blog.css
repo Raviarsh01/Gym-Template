@@ -42,7 +42,9 @@
     transition: 0.5s ease-in-out;
 }
 .image:hover{
-    transform:translatey(-10px)
+    transform:translatey(-10px);
+    z-index: -1;
+    
 }
 .heading{
     margin: 10px 0px;

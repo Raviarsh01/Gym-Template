@@ -34,6 +34,7 @@
     top: 0px;
     background-color: #143642;
     box-shadow: 0 0 5px 1px white;
+    z-index: 1;
   }
   .head,
   footer {
