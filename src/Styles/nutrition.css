@@ -2,8 +2,9 @@
     box-sizing: border-box;
 }
 /* For desktop screen  */
-.container-1{
-    background-image: url("Images/Nutrition/nutrition bg.webp");
+.containerN-1{
+    /* background-image: url("/Images/Nutrition/nutrition bg.webp"); */
+    background-image: url('/public/Images/Nutrition/nutrition\ bg.webp');
     height:30vh;
     background-size:100% 100%;
     display: flex;
@@ -11,24 +12,24 @@
     align-items: center;
     flex-direction: column;
 }
-.container-1 >h2{
+.containerN-1 >h2{
     color:white;
     font-size: 60px;
     line-height: 5rem;
 }
-.container-1 >p{
+.containerN-1 >p{
     color:white;
     font-size:25px;
     text-align: center;
     width: 45%;
 }
-.container-2{
+.containerN-2{
     display:flex;
     flex-wrap:wrap;
     justify-content: center;
 }
-.container-2-a,.container-2-b,.container-2-c,.container-2-d,.container-2-e,
-.container-2-f,.container-2-g,.container-2-h,.container-2-i,.container-2-j{
+.containerN-2-a,.containerN-2-b,.containerN-2-c,.containerN-2-d,.containerN-2-e,
+.containerN-2-f,.containerN-2-g,.containerN-2-h,.containerN-2-i,.containerN-2-j{
     width:40%;
     margin:20px;
 }
@@ -38,7 +39,7 @@
 .inner-flex{
     display:flex;
 }
-.image{
+.imageN{
     width:160px;
     height:130px;
     padding-top: 18px;
@@ -49,35 +50,35 @@
 
 /* For mobile screen  */
 @media screen and (max-width:813px){
-    .container-1{
+    .containerN-1{
         height:auto;
         padding: 0.5rem 0;
         margin-bottom: 1rem;
     }
-    .container-1 >h2{
+    .containerN-1 >h2{
         font-size: 30px;
         line-height:1.5rem;
     }
-    .container-1 >p{
+    .containerN-1 >p{
         font-size:17px;
         width: 70%;
     }
-    .container-2{
+    .containerN-2{
         flex-direction: column;
         gap: 1rem;
     }
-    .container-2-a,.container-2-b,.container-2-c,.container-2-d,.container-2-e,
-    .container-2-f,.container-2-g,.container-2-h,.container-2-i,.container-2-j{
+    .containerN-2-a,.containerN-2-b,.containerN-2-c,.containerN-2-d,.containerN-2-e,
+    .containerN-2-f,.containerN-2-g,.containerN-2-h,.containerN-2-i,.containerN-2-j{
         width:100%;
         padding:0px 10px;
         margin:0px;
         transition: 0.5s ease-in-out;
        
     }
-    .container-2-a > a:hover{
+    .containerN-2-a > a:hover{
         transform: translateY(-10px);
     }
-    .image{
+    .imageN{
         width:30vw;
         height:auto;
         padding-top:0px;

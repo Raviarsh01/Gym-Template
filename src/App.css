@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("./Styles//headfooter.css");
+@import url("./Styles/blog.css");
+@import url("./Styles/home.css");
+@import url("./Styles/nutrition.css");
+
