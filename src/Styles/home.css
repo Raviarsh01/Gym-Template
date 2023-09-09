@@ -3,31 +3,33 @@
   height: auto;
   width: 95;
   /* background-image: url("Images/gym.webp"); */
-  background-image: url('/public/Images/gym.webp');
+  background-image: url("/public/Images/gym.webp");
   background-size: 100% 100%;
   color: white;
-  padding:100px 70px;
+  padding: 100px 70px;
   display: flex;
   flex-direction: column;
   line-height: 6rem;
 }
 .containerH-1-a {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: bolder;
 }
 .containerH-1-b {
-  font-size: 25px;
+  font-size: 22px;
 }
 .containerH-1-c {
   background-color: #143642ed;
   width: 20rem;
   text-align: center;
-  font-size: 23px;
+  font-size: 21px;
   padding: 0 20px;
   height: auto;
+  line-height: 5rem;
 }
 .containerH-2 {
   display: flex;
+  margin-top: 70px;
 }
 .containerH-2-a {
   width: 50%;
@@ -46,11 +48,15 @@
   width: 80%;
   height: 80%;
 }
-
+.paara12 {
+  font-size: 15px;
+  margin: 20px 0;
+}
 .containerH-3 {
   background-color: #cff0fc;
   height: 340px;
-  padding-top: 30px;
+  padding-top: 40px;
+  margin:50px 0;
 }
 .containerH-3 > h2 {
   color: #143642;
@@ -73,10 +79,11 @@
 .pic {
   width: 70px;
   height: 60px;
+  margin: 20px 0;
 }
 .containerH-4 {
   display: flex;
-  padding-top: 20px;
+  margin: 70px 0;;
 }
 .containerH-4-a {
   width: 50%;
@@ -84,18 +91,17 @@
   border-radius: 0% 50% 50% 0%;
 }
 .containerH-4-b {
-  width:50%;
+  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .containerH-4-b > a {
   background-color: #143642;
-  font-size: 27px;
+  font-size: 18px;
   color: white;
-  padding: 20px 40px;
+  padding: 15px 30px;
   text-decoration: none;
-  border-radius: 20px;
 }
 .containerH-4-b > a:hover {
   background-color: #7ecdef;
@@ -113,11 +119,10 @@
 }
 .containerH-5-a > a {
   background-color: #143642;
-  font-size: 27px;
+  font-size: 18px;
   color: white;
-  padding: 20px 70px;
+  padding: 15px 30px;
   text-decoration: none;
-  border-radius: 10px;
 }
 .containerH-5-b {
   width: 50%;
@@ -128,13 +133,15 @@
   background-color: #7ecdef;
   color: #143642;
 }
+.containerH-6{
+  margin: 70px 0;
+}
 .gallery {
   color: #143642;
   text-align: center;
   font-size: 35px;
   text-decoration: underline;
-  padding:10px;
-  margin-top:1rem;
+  padding: 30px 0;
 }
 .containerH-6-a {
   display: grid;
@@ -161,9 +168,9 @@
 }
 
 /* for Mobile screens */
-@media screen and (max-width:813px){
+@media screen and (max-width: 813px) {
   .containerH-1 {
-    height:auto;
+    height: auto;
     line-height: 2rem;
   }
   .containerH-1-a {
@@ -176,7 +183,7 @@
     width: 12em;
     font-size: 10px;
     height: auto;
-    padding:0;
+    padding: 0;
   }
   .containerH-2 {
     display: flex;
@@ -185,10 +192,10 @@
   .containerH-2-a {
     width: 90%;
     margin: auto;
-    padding:0;
-    padding-top:40px;
+    padding: 0;
+    padding-top: 40px;
     text-align: justify;
-    gap:1rem;
+    gap: 1rem;
   }
   .containerH-2-b {
     display: flex;
@@ -202,7 +209,7 @@
   }
   .containerH-3 {
     height: auto;
-    padding-bottom:20px; 
+    padding-bottom: 20px;
   }
   .containerH-3 > h2 {
     font-size: medium;
@@ -222,7 +229,7 @@
   }
   .containerH-4 {
     flex-direction: column;
-    gap:1rem;
+    gap: 1rem;
     margin: 2rem 0;
     padding: 0;
     padding-bottom: 1rem;
@@ -230,11 +237,11 @@
   }
   .containerH-4-a {
     width: 100%;
-    height:auto;
-    border-radius:0;
+    height: auto;
+    border-radius: 0;
   }
   .containerH-4-b {
-    width:100%;
+    width: 100%;
   }
   .containerH-4-b > a {
     font-size: 20px;
@@ -243,7 +250,7 @@
   }
   .containerH-5 {
     flex-direction: column-reverse;
-    gap:1rem;
+    gap: 1rem;
     padding-bottom: 1rem;
     margin-bottom: 2rem;
   }
@@ -257,7 +264,7 @@
   .containerH-5-b {
     width: 100%;
     height: auto;
-    border-radius:0;
+    border-radius: 0;
   }
   .gallery {
     font-size: 25px;
@@ -269,5 +276,4 @@
     grid-auto-rows: 10rem;
     padding: 0 5px;
   }
- 
 }

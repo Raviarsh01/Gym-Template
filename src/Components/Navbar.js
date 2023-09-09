@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Navbar = () => {
-  const [navbar, setnavbar] = useState();
+  const location = useLocation();
+  const [navbar, setnavbar] = useState(1);
 
   return (
     <header className="head">
@@ -12,7 +13,9 @@ const Navbar = () => {
       <nav>
         <Link
           className={
-            navbar === 1 ? "navbar-color navbar-color2" : "navbar-color"
+            location.pathname === "/"
+              ? "navbar-color navbar-color2"
+              : "navbar-color"
           }
           onClick={() => setnavbar(1)}
           to="/"
@@ -21,7 +24,9 @@ const Navbar = () => {
         </Link>
         <Link
           className={
-            navbar === 2 ? "navbar-color navbar-color2" : "navbar-color"
+            location.pathname === "/blog"
+              ? "navbar-color navbar-color2"
+              : "navbar-color"
           }
           onClick={() => setnavbar(2)}
           to="/blog"
@@ -30,7 +35,9 @@ const Navbar = () => {
         </Link>
         <Link
           className={
-            navbar === 3 ? "navbar-color navbar-color2" : "navbar-color"
+            location.pathname === "/nutrition"
+              ? "navbar-color navbar-color2"
+              : "navbar-color"
           }
           onClick={() => setnavbar(3)}
           to="/nutrition"

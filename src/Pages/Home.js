@@ -49,8 +49,8 @@ const Home = () => {
         <div className="containerH-3-a">
           <div className="containerH-3-a-1">
             <img className="pic" src="Images\Home\positivity.png" alt="Image" />
-            <h2>POSITIVITY</h2>
-            <p>
+            <h3>POSITIVITY</h3>
+            <p className="paara12">
               We are nurturers: We seek only to encourage, entertain and empower
             </p>
           </div>
@@ -60,16 +60,16 @@ const Home = () => {
               src="Images\Home\inclusivity.png"
               alt="Image"
             />
-            <h2>INCLUSIVITY</h2>
-            <p>
+            <h3>INCLUSIVITY</h3>
+            <p className="paara12">
               Here we keep open minds. There is no one type or way in our
               diverse community.Come as you are!
             </p>
           </div>
           <div className="containerH-3-a-1">
             <img className="pic" src="Images\Home\fun.png" alt="Image" />
-            <h2>FUN</h2>
-            <p>
+            <h3>FUN</h3>
+            <p className="paara12">
               We know serious fitness is hard, but look-forward-to-your-workouts
               party.
             </p>
@@ -87,7 +87,6 @@ const Home = () => {
           <Link to="/nutrition">Nutrition Diet Plans</Link>
         </div>
       </div>
-      <div style={{ height: "20px" }}></div>
       <div className="containerH-5">
         <div className="containerH-5-a">
           <Link to="/blog">Latest Blogs</Link>
